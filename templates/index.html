@@ -329,7 +329,7 @@
     
     <div class="row">
       {% for i in f_tune1 %}
-        {% if i.index < 10 %}
+        {% if i|index < 10 %}
         <div class="col">
           <p align="center"><b>{{ i }}</b></p>
         </div>
